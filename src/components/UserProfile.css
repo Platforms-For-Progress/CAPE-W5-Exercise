@@ -1,0 +1,41 @@
+/* Styles for each user profile */
+.user-profile {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Styles for the user emoji icon on the top left corner of each card */
+.user-emoji {
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/* Styles for the name of the user */
+.user-profile h3 {
+    margin-top: 30px;
+    color: #333;
+}
+
+/* Styles for other text in the card */
+.user-profile p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* A little style for email emoji */
+.user-profile span {
+    margin-right: 5px;
+}
+
+  
+  
+  
+  
