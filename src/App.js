@@ -1,33 +1,25 @@
 import React from "react";
-import ReactDOM from "react-dom";
-
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import Navbar from "./components/Navbar";
 import "./App.css";
 
-import UserList from "./components/UserList";
+import Contact from "./Contact";
+import Home from "./Home";
+import About from "./About";
 
-const people = [
-  {
-    name: "John",
-    email: "john@example.com",
-    age: 20,
-    emoji: "👨‍💻",
-  },
-  {
-    name: "Jane",
-    email: "jane@example.com",
-    age: 30,
-    emoji: "👩‍💻",
-  },
-  {
-    name: "Jack",
-    email: "jack@example.com",
-    age: 40,
-    emoji: "👨",
-  },
-];
 
 function App() {
-  return <UserList users={people} />;
+  return( 
+  <BrowserRouter>
+    <Navbar/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/About"  element={<About/>} />
+        <Route path="/Contact" element={<Contact/>} />
+      </Routes>
+  
+      </BrowserRouter>
+  );
 }
 
 export default App;
