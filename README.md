@@ -1,7 +1,7 @@
-# CAPE Week 3 Exercise Sample Solution
+# CAPE Week 5 Exercise Sample Solution
 
-This repository serves as a sample solution to the week 3 exercise for creating your first react app.
+This repository serves as a sample solution to the week 5 exercise for creating your first react app.
 
 If you are struggling with some part of the exercise, you can refer to this code.
 
-![Preview of solution](https://github.com/Platforms-For-Progress/CAPE-W3-Exercise/blob/main/public/w3-sol-preview.png?raw=true)
+![Project Tips video](https://drive.google.com/file/d/1yQncGTcQDtdPBzjBrIJfy9bkm0-sTSQ9/view?usp=drive_link)
