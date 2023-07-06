@@ -1,0 +1,19 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .home-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .home-container form label {
+    margin: 10px 0;
+  }
+  

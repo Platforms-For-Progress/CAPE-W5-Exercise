@@ -50,7 +50,7 @@ export default function Contact(){
                 <p>
                     Name:&nbsp;
                     {/* The input text box that contains the name */}
-                    <input onChange={(event) => setName(event.target.value)} value={name}/>
+                    <input onChange={(event) => setName(event.target.value)} value={name} required/>
                 </p>
                 <p>
                     Reason for contact: <br/>
